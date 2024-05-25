@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Kunalsarkar404/Portfolio.git/static/css/main.3ea4f073.css",
+    "main.js": "/Kunalsarkar404/Portfolio.git/static/js/main.fb0d28fc.js",
+    "static/js/453.906b0208.chunk.js": "/Kunalsarkar404/Portfolio.git/static/js/453.906b0208.chunk.js",
+    "static/media/display-pic.jpg": "/Kunalsarkar404/Portfolio.git/static/media/display-pic.fdc9ac199d1fa44e30a6.jpg",
+    "static/media/profile-pic.png": "/Kunalsarkar404/Portfolio.git/static/media/profile-pic.f3e83ed2d54149c2a5df.png",
+    "static/media/template.png": "/Kunalsarkar404/Portfolio.git/static/media/template.e26bc51b09ebf4179da0.png",
+    "static/media/call_icon.svg": "/Kunalsarkar404/Portfolio.git/static/media/call_icon.fec62cc3d3fb69f5ce5f05a0724a0425.svg",
+    "static/media/logo.svg": "/Kunalsarkar404/Portfolio.git/static/media/logo.35c8ef508c6c0686defd01d07dd7bba9.svg",
+    "static/media/user_icon.svg": "/Kunalsarkar404/Portfolio.git/static/media/user_icon.5c0ce6f918770ec5f3046cdf624dfee9.svg",
+    "static/media/underline.svg": "/Kunalsarkar404/Portfolio.git/static/media/underline.daf124b91ce98532fa1c65ff90379eb1.svg",
+    "static/media/mail_icon.svg": "/Kunalsarkar404/Portfolio.git/static/media/mail_icon.9eae5516c8c1364a170e8b13ae4c18cf.svg",
+    "index.html": "/Kunalsarkar404/Portfolio.git/index.html",
+    "static/media/menu_close.svg": "/Kunalsarkar404/Portfolio.git/static/media/menu_close.d7bcdac2acc8f22501cacb6bbabbb700.svg",
+    "static/media/location_icon.svg": "/Kunalsarkar404/Portfolio.git/static/media/location_icon.111157f177e78ee2c0025016c0206379.svg",
+    "static/media/arrow_icon.svg": "/Kunalsarkar404/Portfolio.git/static/media/arrow_icon.866a8d83b9723eed11e169d98d66ebc7.svg",
+    "static/media/menu_open.svg": "/Kunalsarkar404/Portfolio.git/static/media/menu_open.f6a63a18e3c68d807e50b1037f3e3555.svg",
+    "main.3ea4f073.css.map": "/Kunalsarkar404/Portfolio.git/static/css/main.3ea4f073.css.map",
+    "main.fb0d28fc.js.map": "/Kunalsarkar404/Portfolio.git/static/js/main.fb0d28fc.js.map",
+    "453.906b0208.chunk.js.map": "/Kunalsarkar404/Portfolio.git/static/js/453.906b0208.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ea4f073.css",
+    "static/js/main.fb0d28fc.js"
+  ]
+}
