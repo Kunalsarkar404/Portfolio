@@ -16,13 +16,15 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>I am a Senior Analyst based in Bengaluru, India, specializing in SAP GRC systems and cloud infrastructure.</p>
+            <p>I am a Software Engineer based in Bengaluru, India, specializing in Android Development and Web Development.</p>
             <p>With a passion for developing efficient and secure software, I have experience in various programming languages, frameworks, and cloud platforms.</p>
+            <p>My goal is to create impactful software solutions that drive success and innovation in organizations.</p>
+            <p>In my free time, I enjoy building new projects, exploring new technologies, and sharing my knowledge through blogging and speaking at tech events.</p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
               <p>HTML5 & CSS</p>
-              <hr style={{ width: "70%" }}></hr>
+              <hr style={{ width: "80%" }}></hr>
             </div>
             <div className="about-skill">
               <p>React JS</p>
@@ -34,7 +36,15 @@ const About = () => {
             </div>
             <div className="about-skill">
               <p>Java</p>
+              <hr style={{ width: "60%" }}></hr>
+            </div>
+            <div className="about-skill">
+              <p>Spring Boot</p>
               <hr style={{ width: "40%" }}></hr>
+            </div>
+            <div className="about-skill">
+              <p>Android Studio</p>
+              <hr style={{ width: "70%" }}></hr>
             </div>
           </div>
         </div>
@@ -47,6 +57,10 @@ const About = () => {
         <div className="about-achievement">
           <h1>4+</h1>
           <p>PROJECTS COMPLETED</p>
+        </div>
+        <div className="about-achievement">
+          <h1>2+</h1>
+          <p>OPEN-SOURCE CONTRIBUTIONS</p>
         </div>
       </div>
     </div>

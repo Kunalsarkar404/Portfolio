@@ -79,8 +79,8 @@
   height: 78px;
   padding-left: 20px;
   border-radius: 4px;
-  background-color: #32323c;
-  color: #a0a0a0;
+  background-color: #fffdfd6a;
+  color: #000000;
   font-family: Outfit;
   font-size: 20px;
 }
@@ -90,8 +90,8 @@
   border: none;
   padding: 25px;
   border-radius: 4px;
-  background: #32323c;
-  color: #a0a0a0;
+  background: #fffdfd6a;
+  color: #000000;
   font-family: Outfit;
   font-size: 20px;
 }
@@ -104,9 +104,10 @@
   font-size: 1rem;
   width: fit-content;
   padding: 20px 60px;
-  margin-bottom: 50px;
   cursor: pointer;
+  margin-bottom: 50px;
   transition: 0.3s;
+  margin: auto; /* Center the submit button */
 }
 
 .contact-submit:hover {
@@ -156,7 +157,7 @@
   }
 
   .contact-submit {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 1rem 2rem;
     margin-bottom: 1.5rem;
   }

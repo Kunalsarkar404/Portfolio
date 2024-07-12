@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import template from "../../Assests/template.png";
 import location from "../../Assests/location_icon.svg";
@@ -6,7 +6,8 @@ import call_icon from "../../Assests/call_icon.svg";
 import mail_icon from "../../Assests/mail_icon.svg";
 
 const Contact = () => {
-  const [setResult] = React.useState("");
+  const [result, setResult] = useState("");
+
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
@@ -24,6 +25,7 @@ const Contact = () => {
     if (data.success) {
       alert("Form Submitted Successfully");
       event.target.reset();
+      setResult("Form Submitted Successfully");
     } else {
       console.log("Error", data);
       setResult(data.message);
@@ -53,18 +55,14 @@ const Contact = () => {
         </div>
 
         <form onSubmit={onSubmit} className="contact-right">
-          <label htmlFor="">Your Name</label>
+          <label htmlFor="name">Your Name</label>
           <input type="text" placeholder="Enter your name" name="name" />
-          <label htmlFor="">Your Email</label>
+          <label htmlFor="email">Your Email</label>
           <input type="text" placeholder="Enter your email" name="email" />
-          <textarea
-            name="message"
-            rows="8"
-            placeholder="Enter you message"
-          ></textarea>
-          <button type="submit" className="contact-submit">
-            Submit now
-          </button>
+          <label htmlFor="message">Your Message</label>
+          <textarea name="message" rows="8" placeholder="Enter your message"></textarea>
+          <button type="submit" className="contact-submit">Submit now</button>
+          {result && <p className="result-message">{result}</p>}
         </form>
       </div>
     </div>

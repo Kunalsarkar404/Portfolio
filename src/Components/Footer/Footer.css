@@ -27,14 +27,14 @@
     gap: 30px;
     padding: 20px 30px;
     border-radius: 50px;
-    background: #32323B;
+    background: #fffdfd6a;
     padding-right: 80px;
 }
 .footer-email-input input{
     outline: none;
     border: none;
     background: transparent;
-    color: #a0a0a0;
+    color: #000000;
     font-family: Outfit;
     font-size: 18px;
 }
